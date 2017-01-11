@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Test</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <style>
+    @import 'https://fonts.googleapis.com/css?family=Lobster';
+    @import 'https://fonts.googleapis.com/css?family=Anton';
+    @import 'https://fonts.googleapis.com/css?family=Nunito';
+    @import 'https://fonts.googleapis.com/css?family=Trirong';
+    @import 'https://fonts.googleapis.com/css?family=Comfortaa';
+
+    </style>
+
+</head>
+
+<body>
+
+<h2>Olapic Test</h2>
+
+<p>A sample collection of images pulled from Olapic's demo account.</p>
+
+<div class="grid-container">
+    <ul id="myGallery">
+    </ul>
+    <br/>
+    <div id="previous" class="navbtn" onclick="previous();">Previous</div>
+    <div id="next"  class="navbtn" onclick="next();">Next</div>
+</div>
+
+<script src="js/lightbox.js"></script>
+<script>
+    lightbox.option({
+        'resizeDuration' : 200,
+        'wrapAround' : true
+    });
+</script>
+</body>
+
+<footer>
+    <p class="foot">Designed by Heuster Almeida</p>
+</footer>
+</html>
+
+
+<!-- Pagination button example
+
+<p>Next/Previous buttons:</p>
+<ul class="pagination">
+  <li><a href="#">❮   «</a></li>
+  <li><a href="#">❯  »</a></li>
+</ul>
+
+-->
