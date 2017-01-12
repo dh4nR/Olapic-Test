@@ -31,6 +31,7 @@ $(document).ready(function() {
                                             + media[i].caption + '"' + 'height="150px" width="150px"' + '>');
 
                 // Only show the first few
+                
                 if (i >= numImages)
                 {
                     $( "#img" + i).hide();
