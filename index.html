@@ -13,10 +13,7 @@
     <script src="js/script.js"></script>
     <style>
     @import 'https://fonts.googleapis.com/css?family=Lobster';
-    @import 'https://fonts.googleapis.com/css?family=Anton';
     @import 'https://fonts.googleapis.com/css?family=Nunito';
-    @import 'https://fonts.googleapis.com/css?family=Trirong';
-    @import 'https://fonts.googleapis.com/css?family=Comfortaa';
 
     </style>
 
@@ -29,11 +26,17 @@
 <p>A sample collection of images pulled from Olapic's demo account.</p>
 
 <div class="grid-container">
-    <ul id="myGallery">
-    </ul>
-    <br/>
-    <div id="previous" class="navbtn" onclick="previous();">Previous</div>
-    <div id="next"  class="navbtn" onclick="next();">Next</div>
+<!--    <div id="previous" class="navbtn" onclick="previous();">Previous</div> 
+		<div id="next"  class="navbtn" onclick="next();">Next</div>
+
+<div class="navbtn" id="previous" onclick="previous();">«</div>
+
+<div class="navbtn" id="next" onclick="next();">»</div>
+-->
+
+    <div class="navbtn" id="previous" onclick="previous();">❮</div>
+    <div><ul id="myGallery"></ul></div>
+    <div class="navbtn" id="next" onclick="next();">❯</div>
 </div>
 
 <script src="js/lightbox.js"></script>

@@ -11,9 +11,10 @@ body {
 }
 
 .grid-container {
-	background-color:rgba(248,248,255,0);
 	text-align:center;
 	padding:5px;
+	display: inline-block;
+	width: auto;
 }
 
 h2 {
@@ -27,59 +28,67 @@ h2 {
 }
 
 .foot {
-	color:rgba(155,155,155,1);
+	color:rgba(235,235,235,1);
 	font-size:12px;
 	background:rgba(255,255,255,0.2);
 	line-height:20px;
 }
 
-.grid-container {
-	margin:0 auto;
-}
-
 .main-container {
-	width: 100%;
+	width: auto;
 }
 
 .grid-container li {
-	display: inline-block;
+	display: inline;
 	list-style-type: none;
 }
 
 .navbtn
 {
     padding: 4px;
-    background-color: rgba(0,0,0, 0.3); /* Black w/opacity */
+    background-color: rgba(0,0,0, 0.3);
     color: #fff;
     cursor: pointer;
-	display: inline;
+	display: inline-block;
     text-align: center;
+    font-family: Nunito;
+    width: calc(100% / 60);
 }
 
-.image {
-    border: 4px solid rgba(0,0,0, 0.1);
-	border-radius: 1px;
+img {
+    border: 5px solid rgba(255,255,255,0.6);
+    border-radius: 5px;
     padding: 0px;
-    margin: 0px;
+    margin: 3px;
+    max-height:150px;
 }
+
+img:hover {
+	box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.5);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.navbtn:hover {
+	background-color: rgba(0,0,0,0.4)
+}
+
 
 div {
 	margin: 0 auto;
 }
 
-#myGallery {
-    max-width:700px;
-    margin:0 auto;
-    padding:0;
-    list-style:none;
-}
 #myGallery li {
-    display: inline-block;
+    display: inline;
     *display:inline;
-    width:30%; 
+    width:19%; 
     vertical-align:middle;
-    box-sizing:border-box;
     margin:0;
     padding:0;
+    width: calc(100% / 60);
 }
+
+
 

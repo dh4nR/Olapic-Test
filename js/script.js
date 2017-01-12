@@ -28,7 +28,7 @@ $(document).ready(function() {
                                             + '" data-lightbox="myGallery" data-title="'
                                              + media[i].caption + '"><img src="'
                                             + media[i].images.normal + '" alt="'
-                                            + media[i].caption + '"' + 'height="200px" width="200px"' + '>');
+                                            + media[i].caption + '"' + 'height="150px" width="150px"' + '>');
 
                 // Only show the first few
                 if (i >= numImages)
